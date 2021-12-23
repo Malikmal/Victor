@@ -24,7 +24,7 @@ export default class UI {
       { selector: '.fixed-content-paging', cb: this.onPagingClick.bind(this) },
       { selector: '.menu-list', cb: this.onMenuPagingClick.bind(this) },
       { selector: '#button_video', cb: this.showPopup.bind(this, 'video', this.initVideo, this.destoryVideo) },
-      { selector: '#button_offers', cb: this.showPopup.bind(this, 'offers') },
+      // { selector: '#button_offers', cb: this.showPopup.bind(this, 'offers') },
       { selector: '#button_team', cb: this.showPopup.bind(this, 'team', this.initSlider, this.destroySlider) }
     ]
     events.forEach(event => {
